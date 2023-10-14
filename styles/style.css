@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #0a3e50;
+    align-items: center;
+    color: #EEEEEE;
+    font-weight: bolder;
+    padding: 0px 120px;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    box-shadow: 0px 2px 6px 0px #eeeeee69;
+}
+
+#div-logo{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#text-logo{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.nav-link-logo{
+    text-decoration: none;
+    color: #EEEEEE;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #EEEEEE;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#div-nav-button{
+    display: flex;
+    box-sizing: border-box;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+#nav-button{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#banner{
+    background-color: black;
+    padding: 0;
+    position: relative;
+}
+
+#img-banner{
+    opacity: 0.7;
+}
+
+#transparent{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(transparent, black);
+    position: absolute;
+    bottom: 0;
+}
+
+#banner-text{
+    position: absolute;
+    color: #EEEEEE;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner-text > span{
+    font-size: 24pt;
+    margin-top: -30px;
+}
+
+#banner-text > a{
+    font-size: 14pt;
+    text-decoration: none;
+    color: #EEEEEE;
+    padding: 5px 10px;
+    background-color: rgba(214, 32, 7, 0.938);
+    border-radius: 50px;
+    width: fit-content;
+    margin-top: 25px;
+}
+
+#banner-text > a:hover{
+    background-color: rgba(228, 111, 3, 0.938);
+}
+
+#find-me{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 145px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #EEEEEE;
+    font-weight: bolder;
+    font-size: 18pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#socmed{
+    display: flex;
+    width: 40%;
+    background-color: #0a3e50;
+    height: 50px;
+    border-radius: 50px;
+    padding: 5px;
+    justify-content: space-evenly;
+    box-shadow: 0px 2px 6px 0px #eeeeee69;
+}
+
+.socmed-icon{
+    color: #EEEEEE;
+}
+
+#content-container{
+    width: 100%;
+    color: #EEEEEE;
+    background-color: #0c0d11;
+}
+
+#overlay{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(black, transparent);
+}
+
+#content{
+    padding: 10px 120px 50px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content-title{
+    color: #EEEEEE;
+    font-size: 20pt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#content-article{
+    width: 65%;
+}
+
+.article{
+    text-align: justify;
+}
+
+#aside{
+    background-color: #176B87;
+    padding: 20px;
+    width: 30%;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px 0 #696666, 0 2px 4px 0 #EEEEEE;
+}
+
+#footer{
+    background-color: #053B50;
+    display: flex;
+    justify-content: center;
+    color: #EEEEEE;
+    padding: 0px 120px;
+}
+
+#footer-content{
+    background-color: #053B50;
+    border-top: 2px solid #EEEEEE;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+
